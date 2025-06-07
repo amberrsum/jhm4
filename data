@@ -1,0 +1,13 @@
+CREATE database SnackInventory;
+Create table SnackInventory(
+    SnackID INT 
+    Name varchar(255)
+    HealthyOption BOOLEAN
+    StockCount INT
+)
+
+Insert INTO SnackInventory(SnackID, Name, HealthyOption, StockCount) VALUES
+    (1, 'XXX', 0, 4),
+    (1, 'XXX', 0, 5),
+    (1, 'XXX', 1, 6),
+    (1, 'XXX', 0, 3);
